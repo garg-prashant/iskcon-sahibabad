@@ -22,7 +22,7 @@ const Header = () => {
             <Flex p="15px 11px 11px 53px" justifyContent="space-between" alignItems="center">
                 <Flex alignItems="center">
                     <Box>
-                        <Image as={NextImage} src={logo} w="75px" h="55px" alt="logo" />
+                        <Image as={NextImage} src={logo} w="95px" h="85px" alt="logo" />
                     </Box>
                     <Text ml="24px" fontSize="32.842px" fontWeight="700" lineHeight="39px" color="primary">
                         {headerData.title}
