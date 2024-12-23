@@ -7,12 +7,12 @@ import NextImage from "next/image";
 
 const calendarData = {
     entries: [
-        { date: "2024-11-26", label: "Utpanna Ekadashi" },
-        { date: "2024-11-26", label: "Disappearance Day: Srila Narahari Sarkar Thakur" },
-        { date: "2024-11-27", label: "Disappearance Day: Srila Kaliya Krishna Das" },
-        { date: "2024-11-28", label: "Disappearance Day: Srila Sarang Thakur" },
-        { date: "2024-12-07", label: "Udann Shashthi" },
-        { date: "2024-12-11", label: "Mokshada Ekadashi (Gita Jayanti)" },
+        // { date: "2024-11-26", label: "Utpanna Ekadashi" },
+        // { date: "2024-11-26", label: "Disappearance Day: Srila Narahari Sarkar Thakur" },
+        // { date: "2024-11-27", label: "Disappearance Day: Srila Kaliya Krishna Das" },
+        // { date: "2024-11-28", label: "Disappearance Day: Srila Sarang Thakur" },
+        // { date: "2024-12-07", label: "Udann Shashthi" },
+        { date: "2024-12-26", label: "Saphala Ekadashi" },
     ],
     title: "DATE DETAILS"
 }
