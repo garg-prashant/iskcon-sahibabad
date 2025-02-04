@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           <Text ml="12px" fontSize="20px" fontWeight="700" lineHeight="39px" color="primary">
             Upcoming Events/Competitions
           </Text>
-          <Flex w="100%" maxW="1200px" justifyContent="space-between" flexWrap="wrap" gap={4}>
+          {/* <Flex w="100%" maxW="1200px" justifyContent="space-between" flexWrap="wrap" gap={4}>
             <Box flex="1" maxW="48%">
               <img
                 src="/assets/contest.jpeg"
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
                 }}
               />
             </Box>
-          </Flex>
+          </Flex> */}
         </Box>
         <Box h="500px" w="100%">
           <CarousalV2 socialData={socialdata} />
