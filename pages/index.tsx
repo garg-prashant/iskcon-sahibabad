@@ -48,34 +48,20 @@ const Home: NextPage = () => {
         </Text>
         <Box h="auto" w="100%" display="flex" flexDirection="column" alignItems="center" p={4}>
           <Text ml="12px" fontSize="20px" fontWeight="700" lineHeight="39px" color="primary">
-            Upcoming Events/Competitions
+            Chandan Yatra 2025
           </Text>
-          {/* <Flex w="100%" maxW="1200px" justifyContent="space-between" flexWrap="wrap" gap={4}>
-            <Box flex="1" maxW="48%">
-              <img
-                src="/assets/contest.jpeg"
-                alt="Image 1 description"
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  borderRadius: '8px',
-                  objectFit: 'cover',
-                }}
-              />
-            </Box>
-            <Box flex="1" maxW="48%">
-              <img
-                src="/assets/contest_2.jpeg"
-                alt="Image 2 description"
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  borderRadius: '8px',
-                  objectFit: 'cover',
-                }}
-              />
-            </Box>
-          </Flex> */}
+          <img
+            src="/assets/chandan-yatra.jpeg"
+            alt="Image 1 description"
+            style={{
+              width: '100%',
+              height: 'auto',
+              borderRadius: '8px',
+              objectFit: 'cover',
+              maxWidth: '1200px',
+              marginTop: '16px'
+            }}
+          />
         </Box>
         <Box h="500px" w="100%">
           <CarousalV2 socialData={socialdata} />
