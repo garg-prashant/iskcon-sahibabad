@@ -46,23 +46,40 @@ const Home: NextPage = () => {
         <Text mt="48px" w="90%">
           {socialdata?.metadata?.about}
         </Text>
-        <Box h="auto" w="100%" display="flex" flexDirection="column" alignItems="center" p={4}>
-          <Text ml="12px" fontSize="20px" fontWeight="700" lineHeight="39px" color="primary">
-            Chandan Yatra 2025
-          </Text>
-          <img
-            src="/assets/chandan-yatra.jpeg"
-            alt="Image 1 description"
-            style={{
-              width: '100%',
-              height: 'auto',
-              borderRadius: '8px',
-              objectFit: 'cover',
-              maxWidth: '1200px',
-              marginTop: '16px'
-            }}
-          />
-        </Box>
+        <Flex h="auto" w="100%" flexDirection="row" justifyContent="center" alignItems="center" p={4}>
+          <Box w="100%" maxW="1200px" mb={8} p={4} borderWidth="1px" borderRadius="8px" boxShadow="md">
+            <Text ml="12px" fontSize="20px" fontWeight="700" lineHeight="39px" color="primary">
+              Chandan Yatra 2025
+            </Text>
+            <img
+              src="/assets/chandan-yatra.jpeg"
+              alt="Chandan Yatra 2025"
+              style={{
+                width: '100%',
+                height: 'auto',
+                borderRadius: '8px',
+                objectFit: 'cover',
+                marginTop: '16px'
+              }}
+            />
+          </Box>
+          <Box w="100%" maxW="1200px" p={4} borderWidth="1px" borderRadius="8px" boxShadow="md">
+            <Text ml="12px" fontSize="20px" fontWeight="700" lineHeight="39px" color="primary">
+              First Great yagya on our new temple - Narsimha yagya on 11th May at 4/39, sector 5 Rajendra Nagar Sahibabad evening 5pm 🙏
+            </Text>
+            <img
+              src="/assets/akshaya-tritiya.jpeg"
+              alt="Narsimha Yagya"
+              style={{
+                width: '100%',
+                height: 'auto',
+                borderRadius: '8px',
+                objectFit: 'cover',
+                marginTop: '16px'
+              }}
+            />
+          </Box>
+        </Flex>
         <Box h="500px" w="100%">
           <CarousalV2 socialData={socialdata} />
         </Box>
